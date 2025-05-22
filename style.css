@@ -1,35 +1,40 @@
-body {
-  background-color: black;
-}
-
 h1 {
-  color: white;
-  text-align: center;
+color: white;
 }
 
-nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #f1f1f1;
-  top: 0;
-  left: 0;
+body{
+background-color: #ccd5ae;
+color: white;
 }
 
-li {
-  float: left;
+text-decoration: red straight 3px overline underline;
+letter-spacing: 120px;
+
+img:hover{
+width: 320px;
+border: pink striped 15px;
+border-radius: 70%;
+}
+
+h2:hover {
+font-size: 420%;
+text-transform: uppercase;
+text-decoration: wavy underline green
+}
+
+nav{
+list-style-type: none;
+width: 100%;
+background-color: #EBCE8B;
+position: fixed;
+top: 0;
+left: 0;
 }
 
 li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #555;
-  color: lightgreen;
+color: black;
+text-decoration: none;
+display: block;
+float: left;
+padding: 15px 50px;
 }
