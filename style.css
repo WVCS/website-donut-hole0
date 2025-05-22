@@ -7,19 +7,12 @@ h1 {
   text-align: center;
 }
 
-
-p {
-  font-family: verdana;
-  font-size: 20px;
-}
-
 nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #f1f1f1;
-  position: fixed;
   top: 0;
   left: 0;
 }
@@ -36,7 +29,6 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #555;
   color: lightgreen;
